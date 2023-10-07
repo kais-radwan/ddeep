@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "./node_modules/.bin/esbuild ./src/ddeep.js --bundle --outfile=dist/ddeep.build.js --platform=browser"
+  },
+  "main": "./dist/ddeep.build.js",
+  "dependencies": {
+    "esbuild": "^0.19.4",
+    "events": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
+  }
+}

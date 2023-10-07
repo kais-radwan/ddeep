@@ -1,0 +1,5 @@
+**/node_modules
+**/ddeep_data
+**/recovery
+**/.git
+**/test
